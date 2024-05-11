@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center">
         {navBar.map((nav):any => (
           <Link
+          
             href={`#${nav}`}
             className={`mx-3 ${
               nav === "Contact"

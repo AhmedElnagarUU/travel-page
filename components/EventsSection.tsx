@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import ProgressPar from "./ProgressPar";
 import EventsCard from "./EventsCard";
 import { CircleChevronDown } from "lucide-react";
 

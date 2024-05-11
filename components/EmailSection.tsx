@@ -10,14 +10,12 @@ const EmailSection = () => {
         <h2 className="mt-5 my-1 font-semibold text-3xl">Lets</h2>
         <h2 className="my-1 font-semibold text-3xl">Travel</h2>
         <h2 className=" my-1 font-semibold text-3xl">To Gether</h2>
-        <p className="mt-5  pr-20">
+        <p className="mt-5 text-center pr-20">
           Escape to breathtaking landscapes, vibrant cultures, and unforgettable
-          experiences with our exclusive travel packages. Whether youre seeking
-          the sun-kissed shores of tropical paradises, the awe-inspiring majesty
-          of ancient wonders, or the charm of quaint cobblestone streets.
+          experiences with our exclusive travel packages.
         </p>
       </div>
-      <form className="flex flex-col gap-4">
+      <form className="flex mt-8 md:mt-0 flex-col gap-4">
         <label htmlFor="email" className="text-slate-800">
           Your Email
         </label>
@@ -55,7 +53,6 @@ const EmailSection = () => {
           Submit
         </button>
       </form>
-    
     </section>
   );
 };

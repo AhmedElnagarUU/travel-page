@@ -11,7 +11,7 @@ const EventsCard = () => {
           className="w-60 px-2 justify-between  pb-2 item-center shadow-lg hover:shadow-xl relative  mx-5  "
         >
           <div className=" relative ">
-            <div className="absolute justify-between px-2 pt-1 w-full text-xs flex z-50 top-0 left-0">
+            <div key={ele.id} className="absolute justify-between px-2 pt-1 w-full text-xs flex z-50 top-0 left-0">
               <p className=" bg-slate-600/40 flex rounded-full text-center items-center pr-3 text-slate-200">
                 {" "}
                 <Star size={18} className="ml-2 mr-1  text-yellow-400" /> {ele.stars}

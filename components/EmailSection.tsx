@@ -12,7 +12,7 @@ const EmailSection = () => {
         <h2 className=" my-1 font-semibold text-3xl">To Gether</h2>
         <p className="mt-5  pr-20">
           Escape to breathtaking landscapes, vibrant cultures, and unforgettable
-          experiences with our exclusive travel packages. Whether you're seeking
+          experiences with our exclusive travel packages. Whether youre seeking
           the sun-kissed shores of tropical paradises, the awe-inspiring majesty
           of ancient wonders, or the charm of quaint cobblestone streets.
         </p>

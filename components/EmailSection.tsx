@@ -4,18 +4,18 @@ const EmailSection = () => {
   return (
     <section
       id="Contact"
-      className="relative px-20  md:px-5 grid md:grid-cols-2 my-12 py-24 gap-4"
+      className="relative   md:px-5 grid md:grid-cols-2 my-12 py-24 gap-4"
     >
-      <div>
+      <div className="text-center md:text-left">
         <h2 className="mt-5 my-1 font-semibold text-3xl">Lets</h2>
         <h2 className="my-1 font-semibold text-3xl">Travel</h2>
         <h2 className=" my-1 font-semibold text-3xl">To Gether</h2>
-        <p className="mt-5 text-center pr-20">
+        <p className="px-16 md:pl-0 mt-5 text-center md:text-left md:pr-20">
           Escape to breathtaking landscapes, vibrant cultures, and unforgettable
           experiences with our exclusive travel packages.
         </p>
       </div>
-      <form className="flex mt-8 md:mt-0 flex-col gap-4">
+      <form className="flex px-12 mt-8 md:mt-0 flex-col gap-4">
         <label htmlFor="email" className="text-slate-800">
           Your Email
         </label>
